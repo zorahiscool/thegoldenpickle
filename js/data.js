@@ -31,7 +31,7 @@ var GOLDEN_PICKLE_DATA = {
   // Set scheduleReady to true once you want the schedule to display.
   // Add one object per match. court/time are just text, so write them
   // however makes sense ("Court 1", "9:00 AM", etc.)
-  scheduleReady: true,
+  scheduleReady: false,
   schedule: [
     { time: "8:00 AM", court: "Court 1", teamA: "Smith / Garcia",  teamB: "Lee / Nguyen",   round: "Pool Play" },
     { time: "8:00 AM", court: "Court 2", teamA: "Jones / Diaz",    teamB: "Park / Reyes",   round: "Pool Play" },
@@ -55,7 +55,7 @@ var GOLDEN_PICKLE_DATA = {
   // Set bracketReady to true once the bracket is set.
   // Group matches into rounds. Leave score blank ("") until played.
   // winner should exactly match teamA or teamB text once decided.
-  bracketReady: true,
+  bracketReady: false,
   bracket: [
     {
       round: "Quarterfinals",
@@ -92,7 +92,7 @@ var GOLDEN_PICKLE_DATA = {
 
   // ---- RESULTS --------------------------------------------------------
   // Set resultsReady to true once the tournament has wrapped up.
-  resultsReady: true,
+  resultsReady: false,
   results: {
     champion: { team: "Smith / Garcia", players: "Jordan Smith & Casey Garcia" },
     runnerUp: { team: "Brooks / Hale",  players: "Taylor Brooks & Riley Hale" },
