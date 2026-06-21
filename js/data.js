@@ -26,9 +26,9 @@ var GOLDEN_PICKLE_DATA = {
   // however makes sense ("Court 1", "9:00 AM", etc.)
   scheduleReady: true,
   schedule: [
-     { time: "8:10 AM", court: "Court 1", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play" },
-     { time: "8:10 AM", court: "Court 2", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play" },
-     { time: "8:10 AM", court: "Court 3", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play" },
+time: "8:10 AM", court: "Court 1", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play"
+time: "8:10 AM", court: "Court 2", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play"
+time: "8:10 AM", court: "Court 3", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play"
     // Example — delete or edit once real matches are set:
     // { time: "9:00 AM", court: "Court 1", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play" },
   ],
