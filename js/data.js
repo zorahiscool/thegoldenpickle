@@ -3,6 +3,13 @@
    This is the ONE file you need to edit as your tournament comes together.
    No coding knowledge needed — just update the values below carefully,
    keeping the quotes "" and commas , exactly where they are.
+
+   THIS VERSION IS FILLED WITH PLACEHOLDER DATA so you can see how the
+   schedule, bracket, and results pages look once they're turned on.
+   Swap in your real teams/times/scores whenever you're ready — just
+   follow the same { } and , pattern already here. Don't delete the
+   curly braces { } around each entry or the commas between entries,
+   or the page will stop working.
    ========================================================================== */
 
 var GOLDEN_PICKLE_DATA = {
@@ -26,10 +33,21 @@ var GOLDEN_PICKLE_DATA = {
   // however makes sense ("Court 1", "9:00 AM", etc.)
   scheduleReady: true,
   schedule: [
-time: "8:10 AM", court: "Court 1", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play"
-time: "8:10 AM", court: "Court 2", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play"
-time: "8:10 AM", court: "Court 3", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play"
-    // Example — delete or edit once real matches are set:
+    { time: "8:00 AM", court: "Court 1", teamA: "Smith / Garcia",  teamB: "Lee / Nguyen",   round: "Pool Play" },
+    { time: "8:00 AM", court: "Court 2", teamA: "Jones / Diaz",    teamB: "Park / Reyes",   round: "Pool Play" },
+    { time: "8:00 AM", court: "Court 3", teamA: "Brooks / Hale",   teamB: "Cruz / Patel",   round: "Pool Play" },
+    { time: "8:45 AM", court: "Court 1", teamA: "Smith / Garcia",  teamB: "Park / Reyes",   round: "Pool Play" },
+    { time: "8:45 AM", court: "Court 2", teamA: "Lee / Nguyen",    teamB: "Jones / Diaz",   round: "Pool Play" },
+    { time: "8:45 AM", court: "Court 3", teamA: "Brooks / Hale",   teamB: "Cruz / Patel",   round: "Pool Play" },
+    { time: "9:30 AM", court: "Court 1", teamA: "Smith / Garcia",  teamB: "Jones / Diaz",   round: "Pool Play" },
+    { time: "9:30 AM", court: "Court 2", teamA: "Lee / Nguyen",    teamB: "Park / Reyes",   round: "Pool Play" },
+    { time: "10:15 AM", court: "Court 1", teamA: "TBD",            teamB: "TBD",            round: "Quarterfinals" },
+    { time: "10:15 AM", court: "Court 2", teamA: "TBD",            teamB: "TBD",            round: "Quarterfinals" },
+    { time: "11:00 AM", court: "Court 1", teamA: "TBD",            teamB: "TBD",            round: "Semifinals" },
+    { time: "11:45 AM", court: "Court 1", teamA: "TBD",            teamB: "TBD",            round: "Championship" }
+
+    // Example of how to add a new match — copy this line, edit it, and
+    // place a comma after the previous line's closing }:
     // { time: "9:00 AM", court: "Court 1", teamA: "Smith / Garcia", teamB: "Lee / Nguyen", round: "Pool Play" },
   ],
 
@@ -37,9 +55,33 @@ time: "8:10 AM", court: "Court 3", teamA: "Smith / Garcia", teamB: "Lee / Nguyen
   // Set bracketReady to true once the bracket is set.
   // Group matches into rounds. Leave score blank ("") until played.
   // winner should exactly match teamA or teamB text once decided.
-  bracketReady: false,
+  bracketReady: true,
   bracket: [
-    // Example round — delete or edit once real bracket is set:
+    {
+      round: "Quarterfinals",
+      matches: [
+        { teamA: "Smith / Garcia", teamB: "Cruz / Patel",  scoreA: "11", scoreB: "4",  court: "Court 1", time: "10:15 AM", winner: "Smith / Garcia" },
+        { teamA: "Lee / Nguyen",   teamB: "Brooks / Hale", scoreA: "9",  scoreB: "11", court: "Court 2", time: "10:15 AM", winner: "Brooks / Hale" },
+        { teamA: "Jones / Diaz",   teamB: "Park / Reyes",  scoreA: "11", scoreB: "8",  court: "Court 3", time: "10:15 AM", winner: "Jones / Diaz" },
+        { teamA: "TBD",            teamB: "TBD",           scoreA: "",   scoreB: "",   court: "Court 4", time: "10:15 AM", winner: "" }
+      ]
+    },
+    {
+      round: "Semifinals",
+      matches: [
+        { teamA: "Smith / Garcia", teamB: "Brooks / Hale", scoreA: "11", scoreB: "6", court: "Court 1", time: "11:00 AM", winner: "Smith / Garcia" },
+        { teamA: "Jones / Diaz",   teamB: "TBD",           scoreA: "",   scoreB: "",  court: "Court 2", time: "11:00 AM", winner: "" }
+      ]
+    },
+    {
+      round: "Championship",
+      matches: [
+        { teamA: "Smith / Garcia", teamB: "TBD", scoreA: "", scoreB: "", court: "Court 1", time: "11:45 AM", winner: "" }
+      ]
+    }
+
+    // Example of a new round — copy this whole block, edit it, and place
+    // a comma after the previous round's closing }:
     // {
     //   round: "Quarterfinals",
     //   matches: [
@@ -50,13 +92,13 @@ time: "8:10 AM", court: "Court 3", teamA: "Smith / Garcia", teamB: "Lee / Nguyen
 
   // ---- RESULTS --------------------------------------------------------
   // Set resultsReady to true once the tournament has wrapped up.
-  resultsReady: false,
+  resultsReady: true,
   results: {
-    champion: { team: "", players: "" },          // e.g. { team: "Team Dink-amite", players: "Jordan Smith & Casey Garcia" }
-    runnerUp: { team: "", players: "" },
+    champion: { team: "Smith / Garcia", players: "Jordan Smith & Casey Garcia" },
+    runnerUp: { team: "Brooks / Hale",  players: "Taylor Brooks & Riley Hale" },
     placements: [
-      // { place: "3rd", team: "" },
-      // { place: "4th", team: "" }
+      { place: "3rd", team: "Jones / Diaz" },
+      { place: "4th", team: "Lee / Nguyen" }
     ]
   }
 };
