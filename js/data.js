@@ -5,7 +5,7 @@
    keeping the quotes "" and commas , exactly where they are.
    ========================================================================== */
 
-const GOLDEN_PICKLE_DATA = {
+var GOLDEN_PICKLE_DATA = {
 
   // ---- BASIC EVENT INFO ------------------------------------------------
   event: {
