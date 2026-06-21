@@ -17,7 +17,7 @@ var GOLDEN_PICKLE_DATA = {
     address: "Replace with exact street address, Andrews, TX",   // TODO
     format: "Doubles",
     entryFee: "$30 per team ($15/player)",
-    registrationDeadline: "TBA"
+    registrationDeadline: "Thursday, July 9th"
   },
 
   // ---- SCHEDULE ----------------------------------------------------------
