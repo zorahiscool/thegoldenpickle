@@ -401,6 +401,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 @media (max-width: 760px){ .steps{ grid-template-columns: 1fr; } }
 .step-card{
   background: var(--white);
+  color: var(--ink);
   border: 1px solid rgba(20,36,32,0.08);
   border-radius: var(--radius);
   padding: 26px 22px;
