@@ -3,13 +3,6 @@
    This is the ONE file you need to edit as your tournament comes together.
    No coding knowledge needed — just update the values below carefully,
    keeping the quotes "" and commas , exactly where they are.
-
-   THIS VERSION IS FILLED WITH PLACEHOLDER DATA so you can see how the
-   schedule, bracket, and results pages look once they're turned on.
-   Swap in your real teams/times/scores whenever you're ready — just
-   follow the same { } and , pattern already here. Don't delete the
-   curly braces { } around each entry or the commas between entries,
-   or the page will stop working.
    ========================================================================== */
 
 var GOLDEN_PICKLE_DATA = {
@@ -20,21 +13,22 @@ var GOLDEN_PICKLE_DATA = {
     date: "2026-07-11T08:00:00", // ISO format: YYYY-MM-DDTHH:MM:SS (24hr time)
     dateDisplay: "July 11, 2026",
     city: "Andrews, TX",
-    venueName: "Andrews Pickleball Courts",          // TODO: confirm exact venue name
-    address: "Replace with exact street address, Andrews, TX",   // TODO
+    venueName: "Andrews Pickleball Courts",
+    address: "Replace with exact street address, Andrews, TX",
     format: "Doubles",
     entryFee: "$30 per team ($15/player)",
     registrationDeadline: "Thursday, July 9th"
   },
 
+  // ---- TEAMS SIGNED UP -------------------------------------------------
+  // Update this number whenever a new team registers.
+  // It will automatically appear on the sign-up page.
+  teamsSignedUp: 0,
+
   // ---- SCHEDULE ----------------------------------------------------------
-  // Set scheduleReady to true once you want the schedule to display.
-  // Add one object per match. court/time are just text, so write them
-  // however makes sense ("Court 1", "9:00 AM", etc.)
   scheduleReady: false,
   schedule: [
-    { time: "8:05 AM", court: "Court 1", teamA: "Jack B / Abdiel",  teamB: "TBD / TBD,   round: "1" },
-    
+    { time: "8:05 AM", court: "Court 1", teamA: "Jack B / Abdiel", teamB: "TBD / TBD", round: "1" },
 
     // Example of how to add a new match — copy this line, edit it, and
     // place a comma after the previous line's closing }:
@@ -42,9 +36,6 @@ var GOLDEN_PICKLE_DATA = {
   ],
 
   // ---- BRACKET -------------------------------------------------------
-  // Set bracketReady to true once the bracket is set.
-  // Group matches into rounds. Leave score blank ("") until played.
-  // winner should exactly match teamA or teamB text once decided.
   bracketReady: false,
   bracket: [
     {
@@ -69,19 +60,9 @@ var GOLDEN_PICKLE_DATA = {
         { teamA: "Smith / Garcia", teamB: "TBD", scoreA: "", scoreB: "", court: "Court 1", time: "11:45 AM", winner: "" }
       ]
     }
-
-    // Example of a new round — copy this whole block, edit it, and place
-    // a comma after the previous round's closing }:
-    // {
-    //   round: "Quarterfinals",
-    //   matches: [
-    //     { teamA: "Smith / Garcia", teamB: "Lee / Nguyen", scoreA: "", scoreB: "", court: "Court 1", time: "9:00 AM", winner: "" }
-    //   ]
-    // }
   ],
 
   // ---- RESULTS --------------------------------------------------------
-  // Set resultsReady to true once the tournament has wrapped up.
   resultsReady: false,
   results: {
     champion: { team: "Smith / Garcia", players: "Jordan Smith & Casey Garcia" },
