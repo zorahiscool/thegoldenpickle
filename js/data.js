@@ -33,7 +33,7 @@ var GOLDEN_PICKLE_DATA = {
   // however makes sense ("Court 1", "9:00 AM", etc.)
   scheduleReady: false,
   schedule: [
-    { time: "8:05 AM", court: "Court 1", teamA: "Lucas / Abby",  teamB: "Jack B / Abdiel",   round: "Pool Play" },
+    { time: "8:05 AM", court: "Court 1", teamA: "Jack B / Abdiel",  teamB: "TBD / TBD,   round: "1" },
     
 
     // Example of how to add a new match — copy this line, edit it, and
