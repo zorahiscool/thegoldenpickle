@@ -50,6 +50,14 @@ function initCountdown(){
   setInterval(tick, 1000);
 }
 
+// ---- Teams signed up counter ---------------------------------------------
+function renderTeamsSignedUp(){
+  const el = document.querySelector('[data-teams-count]');
+  if(!el || !window.GOLDEN_PICKLE_DATA) return;
+  const count = GOLDEN_PICKLE_DATA.teamsSignedUp;
+  if(count !== undefined) el.textContent = count;
+}
+
 // ---- Schedule / Bracket tabs ---------------------------------------------
 function initTabs(){
   const tabBtns = document.querySelectorAll('.tab-btn');
@@ -208,6 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initNav();
   renderEventDetails();
   initCountdown();
+  renderTeamsSignedUp();
   initTabs();
   renderSchedule();
   renderBracket();
