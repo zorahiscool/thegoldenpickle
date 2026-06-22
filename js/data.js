@@ -31,7 +31,7 @@ var GOLDEN_PICKLE_DATA = {
   // Set scheduleReady to true once you want the schedule to display.
   // Add one object per match. court/time are just text, so write them
   // however makes sense ("Court 1", "9:00 AM", etc.)
-  scheduleReady: true,
+  scheduleReady: false,
   schedule: [
     { time: "8:05 AM", court: "Court 1", teamA: "Lucas / Abby",  teamB: "Jack B / Abdiel",   round: "Pool Play" },
     
