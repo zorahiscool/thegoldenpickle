@@ -31,20 +31,10 @@ var GOLDEN_PICKLE_DATA = {
   // Set scheduleReady to true once you want the schedule to display.
   // Add one object per match. court/time are just text, so write them
   // however makes sense ("Court 1", "9:00 AM", etc.)
-  scheduleReady: false,
+  scheduleReady: true,
   schedule: [
-    { time: "8:00 AM", court: "Court 1", teamA: "Smith / Garcia",  teamB: "Lee / Nguyen",   round: "Pool Play" },
-    { time: "8:00 AM", court: "Court 2", teamA: "Jones / Diaz",    teamB: "Park / Reyes",   round: "Pool Play" },
-    { time: "8:00 AM", court: "Court 3", teamA: "Brooks / Hale",   teamB: "Cruz / Patel",   round: "Pool Play" },
-    { time: "8:45 AM", court: "Court 1", teamA: "Smith / Garcia",  teamB: "Park / Reyes",   round: "Pool Play" },
-    { time: "8:45 AM", court: "Court 2", teamA: "Lee / Nguyen",    teamB: "Jones / Diaz",   round: "Pool Play" },
-    { time: "8:45 AM", court: "Court 3", teamA: "Brooks / Hale",   teamB: "Cruz / Patel",   round: "Pool Play" },
-    { time: "9:30 AM", court: "Court 1", teamA: "Smith / Garcia",  teamB: "Jones / Diaz",   round: "Pool Play" },
-    { time: "9:30 AM", court: "Court 2", teamA: "Lee / Nguyen",    teamB: "Park / Reyes",   round: "Pool Play" },
-    { time: "10:15 AM", court: "Court 1", teamA: "TBD",            teamB: "TBD",            round: "Quarterfinals" },
-    { time: "10:15 AM", court: "Court 2", teamA: "TBD",            teamB: "TBD",            round: "Quarterfinals" },
-    { time: "11:00 AM", court: "Court 1", teamA: "TBD",            teamB: "TBD",            round: "Semifinals" },
-    { time: "11:45 AM", court: "Court 1", teamA: "TBD",            teamB: "TBD",            round: "Championship" }
+    { time: "8:05 AM", court: "Court 1", teamA: "Lucas / Abby",  teamB: "Jack B / Abdiel",   round: "Pool Play" },
+    
 
     // Example of how to add a new match — copy this line, edit it, and
     // place a comma after the previous line's closing }:
