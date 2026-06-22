@@ -23,7 +23,7 @@ var GOLDEN_PICKLE_DATA = {
   // ---- TEAMS SIGNED UP -------------------------------------------------
   // Update this number whenever a new team registers.
   // It will automatically appear on the sign-up page.
-  teamsSignedUp: 0,
+  teamsSignedUp: 1,
 
   // ---- SCHEDULE ----------------------------------------------------------
   scheduleReady: false,
