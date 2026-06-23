@@ -24,13 +24,13 @@ var GOLDEN_PICKLE_DATA = {
   // Update teamsSignedUp whenever a new team registers. maxTeams is your
   // field cap — change it here if the cap ever changes, and the sign-up
   // page banner updates automatically.
-  teamsSignedUp: 1,
+  teamsSignedUp: 2,
   maxTeams: 28,
 
   // ---- SCHEDULE ----------------------------------------------------------
   scheduleReady: false,
   schedule: [
-    { time: "8:05 AM", court: "Court 1", teamA: "Jack B / Abdiel", teamB: "TBD / TBD", round: "1" },
+    { time: "8:05 AM", court: "Court 1", teamA: "Jack B / Abdiel", teamB: "Kyle C / Jackson Ortiz", round: "1" },
 
     // Example of how to add a new match — copy this line, edit it, and
     // place a comma after the previous line's closing }:
