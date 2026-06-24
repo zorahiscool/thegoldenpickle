@@ -24,7 +24,7 @@ var GOLDEN_PICKLE_DATA = {
   // Update teamsSignedUp whenever a new team registers. maxTeams is your
   // field cap — change it here if the cap ever changes, and the sign-up
   // page banner updates automatically.
-  teamsSignedUp: 7,
+  teamsSignedUp: 8,
   maxTeams: 28,
 
   // ---- SCHEDULE ----------------------------------------------------------
