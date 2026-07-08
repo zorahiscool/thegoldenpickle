@@ -24,7 +24,7 @@ var GOLDEN_PICKLE_DATA = {
   // Update teamsSignedUp whenever a new team registers. maxTeams is your
   // field cap — change it here if the cap ever changes, and the sign-up
   // page banner updates automatically.
-  teamsSignedUp: 35,
+  teamsSignedUp: 36,
   maxTeams: 36,
 
   // ---- SIGN-UP FORM ON/OFF SWITCH ---------------------------------------
@@ -32,7 +32,7 @@ var GOLDEN_PICKLE_DATA = {
   // and the embedded Google Form on the Sign Up page is automatically
   // replaced with a "tournament full" message (edit the text below).
   // Set it back to true any time to bring the form back (e.g. next event).
-  signupOpen: true,
+  signupOpen: false,
   signupClosedMessage: "This tournament is full — thanks so much for the interest! Check the Schedule & Bracket page for updates, or follow us on Instagram for info on our next event.",
 
   // ---- SCHEDULE ----------------------------------------------------------
