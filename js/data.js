@@ -91,7 +91,7 @@ var GOLDEN_PICKLE_DATA = {
   // and comes back in a new tab or new session it will show again.
   announcement: {
     enabled: true,
-    title: "Coming Very Soon!",
-    message: "We are almost full!! - Matchups are going to be available very soon — make sure to visit the Schedule & Bracket tab to see your match and time!"
+    title: "MATCHUPS OUT SOON!",
+    message: "We are full!! - Matchups are going to be available very soon — Thank you everyone for signing up."
   }
 };
