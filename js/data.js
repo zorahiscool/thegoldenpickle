@@ -46,12 +46,12 @@ var GOLDEN_PICKLE_DATA = {
     { time: "8:30 AM",  court: "Court 3", teamA: "Court Crushers (Annika Armendariz / Connor Hendricks)", teamB: "Ruben Mancha / Victor Alday",                           round: "Round 1" },
 
     { time: "9:05 AM",  court: "Court 1", teamA: "Dinkin Divas (Holly Conyers / Vicky Townsend)",         teamB: "The Shabooms (Tatum Holley / Max Rosales)",             round: "Round 1" },
-    { time: "9:05 AM",  court: "Court 2", teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  round: "Round 1" },
+    { time: "9:05 AM",  court: "Court 2", teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Jade Brown / Ricardo Brown",                            round: "Round 1" },
     { time: "9:05 AM",  court: "Court 3", teamA: "The Jackson's (Orlando zamora / Makinly Espinosa)",     teamB: "Paddle bros (Jace Dickson / Tommy Evan's)",             round: "Round 1" },
 
     { time: "9:40 AM",  court: "Court 1", teamA: "Dill With It (Lexi Emiliano / Audrey Casillas)",        teamB: "Steven Johnson / Aaron",                                round: "Round 1" },
     { time: "9:40 AM",  court: "Court 2", teamA: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)",     teamB: "Daniel reyes / Nomar Gomez",                            round: "Round 1" },
-    { time: "9:40 AM",  court: "Court 3", teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Jade Brown / Ricardo Brown",                            round: "Round 1" },
+    { time: "9:40 AM",  court: "Court 3", teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  round: "Round 1" },
 
     { time: "10:15 AM", court: "Court 1", teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Zack Knox / Faryah nasrudin)",             round: "Round 1" },
     { time: "10:15 AM", court: "Court 2", teamA: "John Brus / Ashur Tellez",                              teamB: "Caroline Gibson / Rhett Gibson",                        round: "Round 1" },
