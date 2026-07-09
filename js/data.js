@@ -99,7 +99,8 @@ var GOLDEN_PICKLE_DATA = {
         { teamA: "Ervey Montes / Angel Elizondo",                         teamB: "Slix fitz (Eva Flores / Sloan Riordan)",                scoreA: "", scoreB: "", court: "Court 2", time: "11:25 AM", winner: "" },
         { teamA: "Heavy Hitters (Aaron Olivas / Jacob Gomez)",            teamB: "The Real Dill (Austin Garza / Aiden Garza)",            scoreA: "", scoreB: "", court: "Court 3", time: "11:25 AM", winner: "" }
       ]
-    }
+    },
+     //put round 2 in here
   ],
 
   // ---- RESULTS --------------------------------------------------------
