@@ -39,7 +39,7 @@ var GOLDEN_PICKLE_DATA = {
   scheduleReady: true,
   schedule: [
     { time: "8:30 AM",  court: "Court 1", teamA: "The Pickles (Cain Gomez / Aiden Molinar)",             teamB: "Gabby Muniz / Cythia ayala",                        round: "Round 1" },
-    { time: "8:30 AM",  court: "Court 2", teamA: "daddy (kaden mendoza / Servando Olivas)",               teamB: "Dill With It (Lexi Emiliano / Audrey Casillas)",   round: "Round 1" },
+    { time: "8:30 AM",  court: "Court 2", teamA: "daddy (kaden mendoza / Servando Olivas)",               teamB: "Daniel reyes / Nomar Gomez",                       round: "Round 1" },
     { time: "8:30 AM",  court: "Court 3", teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Picklers (Ein Esquivel / Jay Davila)",             round: "Round 1" },
 
     { time: "9:05 AM",  court: "Court 1", teamA: "Heavy Hitters (Aaron Olivas / Jacob Gomez)",            teamB: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)", round: "Round 1" },
@@ -59,7 +59,7 @@ var GOLDEN_PICKLE_DATA = {
     { time: "10:50 AM", court: "Court 3", teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Jade Brown / Ricardo Brown",                       round: "Round 1" },
 
     { time: "11:25 AM", court: "Court 1", teamA: "Team critic (Zack Knox / Faryah nasrudin)",             teamB: "Forty one (Luii Rodriguez / Xavior Kidd Rodriguez)", round: "Round 1" },
-    { time: "11:25 AM", court: "Court 2", teamA: "Daniel reyes / Nomar Gomez",                            teamB: "Caroline Gibson / Rhett Gibson",                   round: "Round 1" },
+    { time: "11:25 AM", court: "Court 2", teamA: "Dill With It (Lexi Emiliano / Audrey Casillas)",        teamB: "Caroline Gibson / Rhett Gibson",                   round: "Round 1" },
     { time: "11:25 AM", court: "Court 3", teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "JB Productions (Selena Garcia / Justin Bailey)",   round: "Round 1" }
   ],
 
@@ -73,7 +73,7 @@ var GOLDEN_PICKLE_DATA = {
       round: "Round 1",
       matches: [
         { teamA: "The Pickles (Cain Gomez / Aiden Molinar)",             teamB: "Gabby Muniz / Cythia ayala",                           scoreA: "", scoreB: "", court: "Court 1", time: "8:30 AM",  winner: "" },
-        { teamA: "daddy (kaden mendoza / Servando Olivas)",               teamB: "Dill With It (Lexi Emiliano / Audrey Casillas)",      scoreA: "", scoreB: "", court: "Court 2", time: "8:30 AM",  winner: "" },
+        { teamA: "daddy (kaden mendoza / Servando Olivas)",               teamB: "Daniel reyes / Nomar Gomez",                          scoreA: "", scoreB: "", court: "Court 2", time: "8:30 AM",  winner: "" },
         { teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Picklers (Ein Esquivel / Jay Davila)",                 scoreA: "", scoreB: "", court: "Court 3", time: "8:30 AM",  winner: "" },
 
         { teamA: "Heavy Hitters (Aaron Olivas / Jacob Gomez)",            teamB: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)",   scoreA: "", scoreB: "", court: "Court 1", time: "9:05 AM",  winner: "" },
@@ -93,7 +93,7 @@ var GOLDEN_PICKLE_DATA = {
         { teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Jade Brown / Ricardo Brown",                          scoreA: "", scoreB: "", court: "Court 3", time: "10:50 AM", winner: "" },
 
         { teamA: "Team critic (Zack Knox / Faryah nasrudin)",             teamB: "Forty one (Luii Rodriguez / Xavior Kidd Rodriguez)",  scoreA: "", scoreB: "", court: "Court 1", time: "11:25 AM", winner: "" },
-        { teamA: "Daniel reyes / Nomar Gomez",                            teamB: "Caroline Gibson / Rhett Gibson",                      scoreA: "", scoreB: "", court: "Court 2", time: "11:25 AM", winner: "" },
+        { teamA: "Dill With It (Lexi Emiliano / Audrey Casillas)",        teamB: "Caroline Gibson / Rhett Gibson",                      scoreA: "", scoreB: "", court: "Court 2", time: "11:25 AM", winner: "" },
         { teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "JB Productions (Selena Garcia / Justin Bailey)",      scoreA: "", scoreB: "", court: "Court 3", time: "11:25 AM", winner: "" }
       ]
     }
