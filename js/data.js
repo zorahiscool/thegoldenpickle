@@ -80,12 +80,12 @@ var GOLDEN_PICKLE_DATA = {
         { teamA: "Court Crushers (Annika Armendariz / Connor Hendricks)", teamB: "Ruben Mancha / Victor Alday",                           scoreA: "", scoreB: "", court: "Court 3", time: "8:30 AM",  winner: "" },
 
         { teamA: "Dinkin Divas (Holly Conyers / Vicky Townsend)",         teamB: "The Shabooms (Tatum Holley / Max Rosales)",             scoreA: "", scoreB: "", court: "Court 1", time: "9:05 AM",  winner: "" },
-        { teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  scoreA: "", scoreB: "", court: "Court 2", time: "9:05 AM",  winner: "" },
+        { teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Jade Brown / Ricardo Brown",                            scoreA: "", scoreB: "", court: "Court 2", time: "9:05 AM",  winner: "" },
         { teamA: "The Jackson's (Orlando zamora / Makinly Espinosa)",     teamB: "Paddle bros (Jace Dickson / Tommy Evan's)",             scoreA: "", scoreB: "", court: "Court 3", time: "9:05 AM",  winner: "" },
 
         { teamA: "Dill With It (Lexi Emiliano / Audrey Casillas)",        teamB: "Steven Johnson / Aaron",                                scoreA: "", scoreB: "", court: "Court 1", time: "9:40 AM",  winner: "" },
         { teamA: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)",     teamB: "Daniel reyes / Nomar Gomez",                            scoreA: "", scoreB: "", court: "Court 2", time: "9:40 AM",  winner: "" },
-        { teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Jade Brown / Ricardo Brown",                            scoreA: "", scoreB: "", court: "Court 3", time: "9:40 AM",  winner: "" },
+        { teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  scoreA: "", scoreB: "", court: "Court 3", time: "9:40 AM",  winner: "" },
 
         { teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Zack Knox / Faryah nasrudin)",             scoreA: "", scoreB: "", court: "Court 1", time: "10:15 AM", winner: "" },
         { teamA: "John Brus / Ashur Tellez",                              teamB: "Caroline Gibson / Rhett Gibson",                        scoreA: "", scoreB: "", court: "Court 2", time: "10:15 AM", winner: "" },
