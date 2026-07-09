@@ -39,7 +39,7 @@ var GOLDEN_PICKLE_DATA = {
   // team was paired against an Intermediate team instead of sitting out.
   // Mix: 3 Adv-vs-Adv, 1 Adv-vs-Int, 6 Int-vs-Int, 4 Beg-vs-Beg, 4 Beg-vs-Int —
   // spread across different waves/courts so no single time slot is all one type.
-  scheduleReady: false,
+  scheduleReady: true,
   schedule: [
     { time: "8:30 AM",  court: "Court 1", teamA: "Jack Burgen / Abdi Molinar",                            teamB: "Cole Ivison / Zoey Harris",                             round: "Round 1" },
     { time: "8:30 AM",  court: "Court 2", teamA: "JB Productions (Selena Garcia / Justin Bailey)",        teamB: "Dan Swartzlander / Misa Gomez",                         round: "Round 1" },
@@ -70,7 +70,7 @@ var GOLDEN_PICKLE_DATA = {
   // Same Round 1 matchups as the schedule. Fill in scoreA, scoreB, and
   // winner as matches finish. Add a "Round 2" block below once Round 1
   // is complete (copy the format of this block).
-  bracketReady: false,
+  bracketReady: true,
   bracket: [
     {
       round: "Round 1",
@@ -121,7 +121,7 @@ var GOLDEN_PICKLE_DATA = {
   // and comes back in a new tab or new session it will show again.
   announcement: {
     enabled: true,
-    title: "MATCHUPS OUT SOON!",
-    message: "We are full!! - Matchups are going to be available very soon — Thank you everyone for signing up."
+    title: "MATCHUPS AVAILABLE",
+    message: "Please check the bracket/schedule page to see your matchup and estimated playing time."
   }
 };
