@@ -36,7 +36,7 @@ var GOLDEN_PICKLE_DATA = {
   // Skill pairings: Beginner vs Intermediate and Intermediate vs Advanced only.
   // No Beginner vs Advanced. One Beg vs Beg match was unavoidable (12 Beginners,
   // only 10 Intermediate spots left after pairing all 7 Advanced teams).
-  scheduleReady: true,
+  scheduleReady: false,
   schedule: [
     { time: "8:30 AM",  court: "Court 1", teamA: "The Pickles (Cain Gomez / Aiden Molinar)",             teamB: "Gabby Muniz / Cythia ayala",                        round: "Round 1" },
     { time: "8:30 AM",  court: "Court 2", teamA: "daddy (kaden mendoza / Servando Olivas)",               teamB: "Daniel reyes / Nomar Gomez",                       round: "Round 1" },
@@ -67,7 +67,7 @@ var GOLDEN_PICKLE_DATA = {
   // Same Round 1 matchups as the schedule. Fill in scoreA, scoreB, and
   // winner as matches finish. Add a "Round 2" block below once Round 1
   // is complete (copy the format of this block).
-  bracketReady: true,
+  bracketReady: false,
   bracket: [
     {
       round: "Round 1",
