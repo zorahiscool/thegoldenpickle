@@ -53,7 +53,7 @@ var GOLDEN_PICKLE_DATA = {
     { time: "9:40 AM",  court: "Court 2", teamA: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)",     teamB: "Daniel reyes / Nomar Gomez",                            round: "Round 1" },
     { time: "9:40 AM",  court: "Court 3", teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  round: "Round 1" },
 
-    { time: "10:15 AM", court: "Court 1", teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Zack Knox / Faryah nasrudin)",             round: "Round 1" },
+    { time: "10:15 AM", court: "Court 1", teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Angel Flores / Faryah nasrudin)",          round: "Round 1" },
     { time: "10:15 AM", court: "Court 2", teamA: "John Brus / Ashur Tellez",                              teamB: "Caroline Gibson / Rhett Gibson",                        round: "Round 1" },
     { time: "10:15 AM", court: "Court 3", teamA: "The Pickles (Cain Gomez / Aiden Molinar)",               teamB: "The Pickle Ticklers (David Seals / Whitnee Seals)",    round: "Round 1" },
 
@@ -87,7 +87,7 @@ var GOLDEN_PICKLE_DATA = {
         { teamA: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)",     teamB: "Daniel reyes / Nomar Gomez",                            scoreA: "", scoreB: "", court: "Court 2", time: "9:40 AM",  winner: "" },
         { teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  scoreA: "", scoreB: "", court: "Court 3", time: "9:40 AM",  winner: "" },
 
-        { teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Zack Knox / Faryah nasrudin)",             scoreA: "", scoreB: "", court: "Court 1", time: "10:15 AM", winner: "" },
+        { teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Angel Flores / Faryah nasrudin)",          scoreA: "", scoreB: "", court: "Court 1", time: "10:15 AM", winner: "" },
         { teamA: "John Brus / Ashur Tellez",                              teamB: "Caroline Gibson / Rhett Gibson",                        scoreA: "", scoreB: "", court: "Court 2", time: "10:15 AM", winner: "" },
         { teamA: "The Pickles (Cain Gomez / Aiden Molinar)",              teamB: "The Pickle Ticklers (David Seals / Whitnee Seals)",     scoreA: "", scoreB: "", court: "Court 3", time: "10:15 AM", winner: "" },
 
