@@ -122,6 +122,6 @@ var GOLDEN_PICKLE_DATA = {
   announcement: {
     enabled: true,
     title: "MATCHUPS AVAILABLE",
-    message: "Please check the bracket/schedule page to see your matchup and estimated playing time."
+    message: "Please check the bracket/schedule page to see your matchup. Please note that the time shown is estimated and match will more than likely be before posted time. PLEASE BE AT COURTS BEFORE POSTED TIME."
   }
 };
