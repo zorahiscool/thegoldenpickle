@@ -75,29 +75,29 @@ var GOLDEN_PICKLE_DATA = {
     {
       round: "Round 1",
       matches: [
-        { teamA: "Jack Burgen / Abdi Molinar",                            teamB: "Cole Ivison / Zoey Harris",                             scoreA: "", scoreB: "", court: "Court 1", time: "8:30 AM",  winner: "" },
-        { teamA: "JB Productions (Selena Garcia / Justin Bailey)",        teamB: "Dan Swartzlander / Misa Gomez",                         scoreA: "", scoreB: "", court: "Court 2", time: "8:30 AM",  winner: "" },
-        { teamA: "Court Crushers (Annika Armendariz / Connor Hendricks)", teamB: "Ruben Mancha / Victor Alday",                           scoreA: "", scoreB: "", court: "Court 3", time: "8:30 AM",  winner: "" },
+        { teamA: "Jack Burgen / Abdi Molinar",                            teamB: "Cole Ivison / Zoey Harris",                             scoreA: "", scoreB: "", court: "Court 1", time: "8:30 AM",  winner: "Jack Burgen / Abdi Molinar" },
+        { teamA: "JB Productions (Selena Garcia / Justin Bailey)",        teamB: "Dan Swartzlander / Misa Gomez",                         scoreA: "", scoreB: "", court: "Court 2", time: "8:30 AM",  winner: "Dan Swartzlander / Misa Gomez" },
+        { teamA: "Court Crushers (Annika Armendariz / Connor Hendricks)", teamB: "Ruben Mancha / Victor Alday",                           scoreA: "", scoreB: "", court: "Court 3", time: "8:30 AM",  winner: "Court Crushers (Annika Armendariz / Connor Hendricks)" },
 
-        { teamA: "Dinkin Divas (Holly Conyers / Vicky Townsend)",         teamB: "The Shabooms (Tatum Holley / Max Rosales)",             scoreA: "", scoreB: "", court: "Court 1", time: "9:05 AM",  winner: "" },
-        { teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Jade Brown / Ricardo Brown",                            scoreA: "", scoreB: "", court: "Court 2", time: "9:05 AM",  winner: "" },
-        { teamA: "The Jackson's (Orlando zamora / Makinly Espinosa)",     teamB: "Paddle bros (Jace Dickson / Tommy Evan's)",             scoreA: "", scoreB: "", court: "Court 3", time: "9:05 AM",  winner: "" },
+        { teamA: "Dinkin Divas (Holly Conyers / Vicky Townsend)",         teamB: "The Shabooms (Tatum Holley / Max Rosales)",             scoreA: "", scoreB: "", court: "Court 1", time: "9:05 AM",  winner: "The Shabooms (Tatum Holley / Max Rosales)" },
+        { teamA: "Team Kenobi (Kyle Covington / Jackson Ortiz)",          teamB: "Jade Brown / Ricardo Brown",                            scoreA: "", scoreB: "", court: "Court 2", time: "9:05 AM",  winner: "Team Kenobi (Kyle Covington / Jackson Ortiz)" },
+        { teamA: "The Jackson's (Orlando zamora / Makinly Espinosa)",     teamB: "Paddle bros (Jace Dickson / Tommy Evan's)",             scoreA: "", scoreB: "", court: "Court 3", time: "9:05 AM",  winner: "Paddle bros (Jace Dickson / Tommy Evan's)" },
 
-        { teamA: "Dill With It (Lexi Emiliano / Audrey Casillas)",        teamB: "Steven Johnson / Aaron",                                scoreA: "", scoreB: "", court: "Court 1", time: "9:40 AM",  winner: "" },
-        { teamA: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)",     teamB: "Daniel reyes / Nomar Gomez",                            scoreA: "", scoreB: "", court: "Court 2", time: "9:40 AM",  winner: "" },
-        { teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  scoreA: "", scoreB: "", court: "Court 3", time: "9:40 AM",  winner: "" },
+        { teamA: "Dill With It (Lexi Emiliano / Audrey Casillas)",        teamB: "Steven Johnson / Aaron",                                scoreA: "", scoreB: "", court: "Court 1", time: "9:40 AM",  winner: "Dill With It (Lexi Emiliano / Audrey Casillas)" },
+        { teamA: "Pickle ticklers (Maribel Olivas / Kimberly Muniz)",     teamB: "Daniel reyes / Nomar Gomez",                            scoreA: "", scoreB: "", court: "Court 2", time: "9:40 AM",  winner: "Daniel reyes / Nomar Gomez" },
+        { teamA: "Okc Thunder (Auden Morales / Xavier Ramos)",            teamB: "Ball Busters (Hagen Tuck / Ej Lopez)",                  scoreA: "", scoreB: "", court: "Court 3", time: "9:40 AM",  winner: "Ball Busters (Hagen Tuck / Ej Lopez)" },
 
-        { teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Angel Flores / Faryah nasrudin)",          scoreA: "", scoreB: "", court: "Court 1", time: "10:15 AM", winner: "" },
-        { teamA: "John Brus / Ashur Tellez",                              teamB: "Caroline Gibson / Rhett Gibson",                        scoreA: "", scoreB: "", court: "Court 2", time: "10:15 AM", winner: "" },
-        { teamA: "The Pickles (Cain Gomez / Aiden Molinar)",              teamB: "The Pickle Ticklers (David Seals / Whitnee Seals)",     scoreA: "", scoreB: "", court: "Court 3", time: "10:15 AM", winner: "" },
+        { teamA: "Marlee Ortiz / Rylee Ortiz",                            teamB: "Team critic (Angel Flores / Faryah nasrudin)",          scoreA: "", scoreB: "", court: "Court 1", time: "10:15 AM", winner: "Team critic (Angel Flores / Faryah nasrudin)" },
+        { teamA: "John Brus / Ashur Tellez",                              teamB: "Caroline Gibson / Rhett Gibson",                        scoreA: "", scoreB: "", court: "Court 2", time: "10:15 AM", winner: "John Brus / Ashur Tellez" },
+        { teamA: "The Pickles (Cain Gomez / Aiden Molinar)",              teamB: "The Pickle Ticklers (David Seals / Whitnee Seals)",     scoreA: "", scoreB: "", court: "Court 3", time: "10:15 AM", winner: "The Pickles (Cain Gomez / Aiden Molinar)" },
 
-        { teamA: "Angel Granados / Jorge Molinar",                        teamB: "Forty one (Luii Rodriguez / Xavior Kidd Rodriguez)",    scoreA: "", scoreB: "", court: "Court 1", time: "10:50 AM", winner: "" },
-        { teamA: "Trace Garcia / Jaden Luebano",                          teamB: "Colt Beckham / Caden Fields",                           scoreA: "", scoreB: "", court: "Court 2", time: "10:50 AM", winner: "" },
-        { teamA: "Big Dink Energy (Hailey Gribble / Aaron Franco)",       teamB: "Picklers (Ein Esquivel / Jay Davila)",                  scoreA: "", scoreB: "", court: "Court 3", time: "10:50 AM", winner: "" },
+        { teamA: "Angel Granados / Jorge Molinar",                        teamB: "Forty one (Luii Rodriguez / Xavior Kidd Rodriguez)",    scoreA: "", scoreB: "", court: "Court 1", time: "10:50 AM", winner: "Angel Granados / Jorge Molinar" },
+        { teamA: "Trace Garcia / Jaden Luebano",                          teamB: "Colt Beckham / Caden Fields",                           scoreA: "", scoreB: "", court: "Court 2", time: "10:50 AM", winner: "Trace Garcia / Jaden Luebano" },
+        { teamA: "Big Dink Energy (Hailey Gribble / Aaron Franco)",       teamB: "Picklers (Ein Esquivel / Jay Davila)",                  scoreA: "", scoreB: "", court: "Court 3", time: "10:50 AM", winner: "Big Dink Energy (Hailey Gribble / Aaron Franco)" },
 
-        { teamA: "Gabby Muniz / Cythia ayala",                            teamB: "Vortex (Eddie Herrera / Maverick Torres)",              scoreA: "", scoreB: "", court: "Court 1", time: "11:25 AM", winner: "" },
-        { teamA: "Ervey Montes / Angel Elizondo",                         teamB: "Slix fitz (Eva Flores / Sloan Riordan)",                scoreA: "", scoreB: "", court: "Court 2", time: "11:25 AM", winner: "" },
-        { teamA: "Heavy Hitters (Aaron Olivas / Jacob Gomez)",            teamB: "The Real Dill (Austin Garza / Aiden Garza)",            scoreA: "", scoreB: "", court: "Court 3", time: "11:25 AM", winner: "" }
+        { teamA: "Gabby Muniz / Cythia ayala",                            teamB: "Vortex (Eddie Herrera / Maverick Torres)",              scoreA: "", scoreB: "", court: "Court 1", time: "11:25 AM", winner: "Vortex (Eddie Herrera / Maverick Torres)" },
+        { teamA: "Ervey Montes / Angel Elizondo",                         teamB: "Slix fitz (Eva Flores / Sloan Riordan)",                scoreA: "", scoreB: "", court: "Court 2", time: "11:25 AM", winner: "Slix fitz (Eva Flores / Sloan Riordan)" },
+        { teamA: "Heavy Hitters (Aaron Olivas / Jacob Gomez)",            teamB: "The Real Dill (Austin Garza / Aiden Garza)",            scoreA: "", scoreB: "", court: "Court 3", time: "11:25 AM", winner: "Heavy Hitters (Aaron Olivas / Jacob Gomez)" }
       ]
     },
      //put round 2 in here
